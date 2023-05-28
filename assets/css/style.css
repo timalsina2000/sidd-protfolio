@@ -423,9 +423,9 @@ html, body {
 }
 
 /* HERO
-================================================== */
+======== */
 .hero {
-  background: url('../img/hero.jpg');
+  background: url('../img/hero.JPG')center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
