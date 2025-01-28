@@ -1,0 +1,107 @@
+/* CSS Styles */
+body {
+    font-family: "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .app-container {
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid;
+    font-family: inherit;
+  }
+  
+  .portfolio-container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .light {
+    background-color: #f5f5f5;
+    color: #000;
+  }
+  
+  .dark {
+    background-color: #111;
+    color: #f5f5f5;
+  }
+  
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+  }
+  
+  .title-container {
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    padding: 0;
+  }
+  
+  .menu-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .menu-item.active {
+    text-decoration: underline;
+  }
+  
+  .content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    max-width: 600px;
+  }
+  
+  .dropdown-content {
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .description {
+    font-size: 1rem;
+    max-width: 400px;
+  }
+ 
+  
